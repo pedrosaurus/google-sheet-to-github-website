@@ -17,15 +17,16 @@ title: Update Spreadsheet
     // Reset the cookie manually
     //Cookies.expire('token');
 
-    // URL: https://[user/org].github.io/[repo]/pull-sheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
+    // URL: https://pedrosaurus.github.io/temp/pull-sheet/?key=1sfoYXgI5mZ9dV7g1F5vMVteE15nO-gOwryelmr3DAXs&worksheet=table&token=15a36ad94972b9e5b23abcb0e6be237c381ec4df&org=pedrosaurus&repo=google-sheet-to-github-website
+&branch=master
 
     // Incoming Variables append
-    var $key = getUrlVar('key');
-    var $resource = getUrlVar('worksheet');
-    var $oAuthToken = getUrlVar('token');
-    var $org = getUrlVar('org');
-    var $repo = getUrlVar('repo');
-    var $branch = getUrlVar('branch');
+    var $key = getUrlVar('1sfoYXgI5mZ9dV7g1F5vMVteE15nO-gOwryelmr3DAXs');
+    var $resource = getUrlVar('table');
+    var $oAuthToken = getUrlVar('15a36ad94972b9e5b23abcb0e6be237c381ec4df');
+    var $org = getUrlVar('pedrosaurus');
+    var $repo = getUrlVar('google-sheet-to-github-website');
+    var $branch = getUrlVar('master');
 
     var $yaml_store = "";
 
